@@ -1,0 +1,44 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: -2px 2px 3px black;
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  opacity: .8 !important;
+  filter: grayscale(.4);
+}
+
+.clients img {
+  max-height: 50px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.clientss {
+  padding: 0;
+}
+
+section, footer {
+  padding: 20px 0;
+}
+
+
+
+
+/* responsive */
+  @media screen and (min-width: 601px) and (max-width: 957px) {
+    .cards {
+      float: left;
+      min-width: 100%;
+    }
+
+    .clear {
+      clear: both;
+    }
+    
+  }
+/* akhir responsive */

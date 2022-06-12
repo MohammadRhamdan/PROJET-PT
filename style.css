@@ -26,7 +26,12 @@ section, footer {
   padding: 20px 0;
 }
 
-
+@media screen and (max-width: 427px) {
+  .nav-wrapper .brand-logo {
+    width: 70%;
+    margin-left: 20px;
+  }
+}
 
 
 /* responsive */
@@ -42,10 +47,4 @@ section, footer {
     
   }
 
-@media screen and (max-width: 427px) {
-  .nav-wrapper .brand-logo {
-    width: 70%;
-    margin-left: 20px;
-  }
-}
 /* akhir responsive */
